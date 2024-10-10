@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #c8102e; /* Red */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2, h3, h4 {
+    color: #c8102e; /* Red */
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1a1a1a; /* Dark gray for cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    width: 300px; /* Fixed width for cards */
+    transition: transform 0.3s; /* Animation effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Raise the card on hover */
+}
+
+ul {
+    list-style-type: disc; /* Use disc for bullet points */
+    padding-left: 20px; /* Add padding */
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
